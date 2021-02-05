@@ -24,7 +24,7 @@ int main2() {
     }
     
 
-    memset(reachable, false, sizeof reachable);         // clear everything
+    memset(reachable, false, sizeof reachable);
     for (i = 1; i <= price[0][0]; i++)       // initial values (base cases)
       if (M - price[0][i] >= 0)      // to prevent array index out of bound
         reachable[0][M - price[0][i]] = true;  // using first garment g = 0
