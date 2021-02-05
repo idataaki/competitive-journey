@@ -20,7 +20,7 @@ int main2() {
         for (size_t j = 0; j < 25; j++){
             printf("%d", price[i][j]);
         }
-        printf(" ");
+        printf(" ");    //print nothing
     }
     
 
